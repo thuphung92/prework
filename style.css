@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+
+.header {
+    padding:15px;
+    text-align: center;
+    font-size: 4.5vw;
+    background-color: white;
+}
+
+/* Style the navigation bar */
+.navigation_bar{
+    overflow: hidden;
+    background-color: black;
+    font-size: 1.5vw;
+}
+
+/* Style the links of navigation bar*/
+.navigation_bar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+span.Link{
+    float: right;
+    padding-right: 15px;
+    color: white;
+    padding: 14px 16px;
+}
+
+/*Change color on hover */
+.navigation_bar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Create 02 column */
+.left {
+    width: 75%;
+    float: left;
+}
+
+.right {
+    width: 25%;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+.main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.side {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Use media query to set a breakpoint at 620px for mobile phone */
+@media only screen and (max-width:620px) {
+    .left, .right {
+        width: 100%;
+    }
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.contacts {
+    padding-left: 25px;
+}
+.contacts img {
+    display: inline-block;
+    width: 32px;
+}
+.contacts a {
+    text-decoration: none;
+}
+
+/* Style the gallery */
+.gallery {
+    border: 1px solid lightgray;
+}
+.gallery:hover {
+    border: 1px solid black;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 8px;
+    text-align: center;
+}
